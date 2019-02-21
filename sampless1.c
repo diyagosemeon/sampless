@@ -1,13 +1,10 @@
 #include <stdio.h>
-#include <conio.h>
- int main() {
+ int main void() {
     int first, diff, terms, value, sum=0, i;
  printf("Enter the number of terms, first term, common difference in AP series\n");
     scanf("%d %d %d", &terms,&first, &diff);
     value = first;
-    printf("AP SERIES\n");
-    for(i = 0; i < terms; i++) {
-        printf("%d ", value);
+   for(i = 0; i < terms; i++) {
         sum += value;
         value = value + diff;
         }
