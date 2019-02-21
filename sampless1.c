@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <conio.h>
  int main() {
     int first, diff, terms, value, sum=0, i;
  printf("Enter the number of terms, first term, common difference in AP series\n");
@@ -12,6 +12,5 @@
         value = value + diff;
         }
   printf("\nSum of the AP series till %d terms is %d\n", terms, sum);
-  getch();
  return 0;
 }
